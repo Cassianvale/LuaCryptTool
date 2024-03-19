@@ -11,8 +11,8 @@ The project utilizes `go build` for packaging, and employs `upx` for high-qualit
 `upx -9 encryptor.exe`  
 
 - EncryptorDecryptor: For batch encryption & decryption  
-`upx -9 encryptor_decryptor.exe`  
 `go build -ldflags="-s -w" -o encryptor_decryptor.exe`  
+`upx -9 encryptor_decryptor.exe`   
 
 ## How to Use
 Navigate to the `dist` directory, install `./dist/jre-8u251-windows-x64.exe` and set up the environment variables, then run the packaged `./dist/encryptor.exe` or `./dist/encryptor_decryptor.exe` files.
